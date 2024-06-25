@@ -1,0 +1,35 @@
+body {
+    font-family: "Lucida Console", "Courier New";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url('./bg.jpeg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    color: rgb(24, 15, 59);
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 15, 59);
+}
+
+textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
